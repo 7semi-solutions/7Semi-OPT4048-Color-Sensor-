@@ -282,7 +282,7 @@ private:
  * - Matrix converts XYZ (relative) -> linear sRGB
  * - Standard sRGB / IEC 61966-2-1
  */
-static const float kXYZ_to_sRGB[3][3] = {
+static constexpr float kXYZ_to_sRGB[3][3] = {
   {  3.2406f, -1.5372f, -0.4986f },
   { -0.9689f,  1.8758f,  0.0415f },
   {  0.0557f, -0.2040f,  1.0570f }
